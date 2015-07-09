@@ -4,7 +4,7 @@
   "description": "Because $.fn.delay doesn't touch sync methods",
   "main": "jquery-delayed.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha-phantomjs ./test/runner.html"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/robcolburn/jquery-delayed/issues"
   },
-  "homepage": "https://github.com/robcolburn/jquery-delayed#readme"
+  "homepage": "https://github.com/robcolburn/jquery-delayed#readme",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "jquery": "^2.1.4",
+    "mocha": "^2.2.5",
+    "mocha-phantomjs": "^4.0.0-beta1"
+  }
 }
