@@ -1,0 +1,25 @@
+{
+  "name": "jquery-delayed",
+  "version": "1.0.0",
+  "description": "Because $.fn.delay doesn't touch sync methods",
+  "main": "jquery-delayed.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robcolburn/jquery-delayed.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "delay",
+    "delayed"
+  ],
+  "author": "Rob Colburn <rob@robcolburn.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robcolburn/jquery-delayed/issues"
+  },
+  "homepage": "https://github.com/robcolburn/jquery-delayed#readme"
+}
